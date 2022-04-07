@@ -1,0 +1,142 @@
+/*
+GENERAMIENTO DE ESTILOS
+1. posiconamiento
+2.modelo de caja(box mode)
+3.tipografia
+4.efectos visuales
+5.otros
+
+*/
+:root { /* variables*/
+    /*COLORES*/
+  --bitcoin-orange: #f7931a;
+  --soft-orange: #ffe9d5;
+  --secondary-blue: #1a9af7;
+  --soft-blue: #e7f5ff;
+  --warm-black: #282623;
+  --black: #201e1c;
+  --grye: #bababa;
+  --off-white: #faf8f7;
+  --just-white: #fff;
+  
+}
+  *{
+      box-sizing: border-box;
+      padding: 0;
+      margin: 0;
+       
+}
+html{
+      font-size: 62.5%;
+      font-family: 'DM Sans', sans-serif;
+}
+
+ 
+.main{  
+    width: 100%;
+    height: auto;
+    background-color: var(--off-white);
+    width: 100%;
+
+
+}
+.main-container{
+    width: 70%;
+    min-width: 235px;
+    max-width: 500px;
+    height: 360px;
+    margin: 0 auto;
+    font-family: 'Inter', sans-serif;
+
+}
+.main-container .main-container--title {
+     margin-top: 20px;
+     margin-bottom: 15px;
+     font-size: 1.8rem;
+     font-weight: bold;
+     line-height: 2.3rem;
+     text-align: center;
+     color: var(--bitcoin-orange);
+
+}
+.srtable {
+    width: 90%;
+    height: 250px;
+    margin: 0 auto;
+    max-width: 300px;
+    min-height: 230px;
+
+
+
+}
+.srtable table {
+    width: 100%;
+    height: 100%;
+}
+.main-container td{
+    width: 50%;
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 2rem;
+    color: var(--grye);
+    background-color: var(--just-white);
+}
+.srtable .top__left {
+    border-radius: 15px 0 0 0;
+
+    
+}
+table .top__right{
+    border-radius: 0 15px 0 0;
+    
+}
+.srtable table .buttom--right {
+     border-radius: 0 0 15px 0;
+
+}
+.srtable table .buttom--left {
+    border-radius: 0 0 0 15px;
+
+}
+.srtable .column-right{
+    font-size: 1.4rem;
+    font-weight: normal;
+    line-height: 1.7rem;
+    color: #757575;
+
+
+}
+.currency-table--date2 {
+    background-color: var(--soft-orange);
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-top: 15px;
+    padding: 8px;
+    width: 190px;
+
+    
+
+
+
+}
+.currency-table--date2 p {
+    font-size: 1.2rem;
+    font-weight: 300;
+    line-height: 1.2rem;
+    color: var(--warm-black);
+    
+}
+
+
+
+
+
+
+      
+
+
+
+
+
+
